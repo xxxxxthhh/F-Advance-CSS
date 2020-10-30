@@ -18,3 +18,19 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-color: #262626;
+  height: 70px;
+}
+
+.Nav {
+  color: #9ca5aa;
+  height: 70px;
+  font-size: large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}

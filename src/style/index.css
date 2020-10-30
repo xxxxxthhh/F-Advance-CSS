@@ -72,3 +72,37 @@ ul {
   padding-right: 20px;
   font-weight: 400;
 }
+
+.archives {
+  height: 330px;
+  width: 225px;
+  background-color: white;
+  text-align: start;
+  margin-top: 30px;
+  margin-left: 55px;
+}
+
+.archives-header {
+  font-size: 26px;
+  font-style: italic;
+  color: black;
+  text-shadow: 2px 0 black;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.archives-links {
+  display: inline;
+}
+
+.archive-link {
+  display: block;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+}

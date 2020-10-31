@@ -53,3 +53,7 @@ npm run format
 ## NOTE
 
 Your committed code will be automatically format and check lint when submit
+
+## Final View
+
+![](https://github.com/xxxxxthhh/F-Advance-CSS/blob/master/final-version.png?raw=true)

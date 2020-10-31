@@ -115,12 +115,21 @@ ul {
 
 .articles-area {
   width: 1000px;
+  height: 1000px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin-top: 40px;
   margin-left: 45px;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   align-items: flex-start;
+}
+
+.articles-area::before,
+.articles-area::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 1;
 }
 
 .article-box {
@@ -129,7 +138,15 @@ ul {
   border: 2px #e5e5e5 solid;
   border-radius: 4px;
   box-shadow: 1px 3px 5px 0px #adadad;
-  margin-left: 10px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.article-box:nth-child(2n + 1) {
+  order: 1;
+}
+.article-box:nth-child(2n) {
+  order: 2;
 }
 
 .article-pic {

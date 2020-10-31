@@ -28,6 +28,7 @@ ul {
 .header {
   background-color: #262626;
   height: 70px;
+  min-width: 1440px;
 }
 
 .Nav {
@@ -43,10 +44,6 @@ ul {
 
 .Nav-Link {
   font-family: "Open Sans", sans-serif;
-}
-
-.aside {
-  /*margin: 20px;*/
 }
 
 .about {
@@ -114,8 +111,9 @@ ul {
 }
 
 .articles-area {
-  width: 1000px;
+  min-width: 900px;
   height: 1000px;
+  width: 60%;
   display: flex;
   justify-content: flex-start;
   margin-top: 40px;
@@ -202,6 +200,7 @@ ul {
   height: 60px;
   border: 2px #dadfe2 solid;
   border-radius: 6px;
+  justify-content: center;
 }
 
 .save-cookies {
@@ -252,4 +251,9 @@ ul {
   /* WebKit, Blink, Edge */
   color: #838383;
   font-size: 14px;
+}
+
+.aside {
+  width: 20%;
+  min-width: 220px;
 }
